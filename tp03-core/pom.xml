@@ -5,6 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>tp03-core</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>20040902.021138</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>1.10.6.RELEASE</version>
+        </dependency>
+    </dependencies>
 
     <parent>
         <groupId>hei.2017</groupId>
